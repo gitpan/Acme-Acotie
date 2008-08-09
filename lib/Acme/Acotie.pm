@@ -2,7 +2,7 @@ package Acme::Acotie;
 
 use strict;
 use warnings;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Class::Inspector;
 use List::Util 'shuffle';
@@ -28,11 +28,13 @@ sub import {
 1;
 __END__
 
+=for stopwords Namespace namespace Kogai
+
 =encoding utf8
 
 =head1 NAME
 
-Acme::Acotie - Crash of Namespase
+Acme::Acotie - Crash of Namespace
 
 =head1 SYNOPSIS
 
@@ -40,13 +42,16 @@ Acme::Acotie - Crash of Namespase
 
 =head1 DESCRIPTION
 
-Acme::Acotie is namespase crasher.
+Acme::Acotie is namespace crasher.
 
 =head1 AUTHOR
 
 Kazuhiro Osawa E<lt>ko@yappo.ne.jpE<gt>
 
-=head1 SEE ALSO
+=head1 THANKS TO
+
+id:acotie
+Dan Kogai (s/spase/space/g)
 
 =head1 REPOSITORY
 
